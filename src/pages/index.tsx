@@ -24,7 +24,7 @@ const Home: React.FC = () => {
                 tinham sido fechados. Na actualidade existem diversos sistemas de Streaming aondo o que mais
                 se destaca é o NETFLIX
             </p>
-            <Netflix width="400px" height="400px"/>
+            <Netflix width="800px" height="400px"/>
         </Container>
     );
 };

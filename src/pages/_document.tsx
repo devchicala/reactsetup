@@ -1,7 +1,6 @@
 import React from 'react'
-import Document, { DocumentContext, DocumentInitialProps, Html, Main, NextScript } from 'next/document'
+import Document, { DocumentContext, DocumentInitialProps, Html, Main, NextScript, Head } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
-import Head from 'next/head'
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
@@ -36,7 +35,7 @@ export default class MyDocument extends Document {
               <Head>
                 <meta charSet="utf-8" />
                 <link
-                href="https://fonts-googleapis.com/css?family=Roboto:400,500,700"
+                href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
                 rel="stylesheet"
                 />
                 <link rel="icon" href="https://rocketseat.com.br/favicon.ico"/>
